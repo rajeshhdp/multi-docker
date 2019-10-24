@@ -11,7 +11,7 @@ script:
 
 after_success:
    - docker build -t rajdockerlearning123/multi-client ./client
-   - docker build -t rajdockerlearning123/multi-nginx ./ndinx
+   - docker build -t rajdockerlearning123/multi-nginx ./nginx
    - docker build -t rajdockerlearning123/multi-server ./server
    - docker build -t rajdockerlearning123/multi-worker ./worker
 
